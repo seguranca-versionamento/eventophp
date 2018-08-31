@@ -1,7 +1,6 @@
 <?php
 
 	include "modelo/banco.php";
-	include "modelo/banco.php";
 	
 	if(isset($_POST['cidade'])){
 		$cidade = htmlspecialchars($_POST['cidade']);

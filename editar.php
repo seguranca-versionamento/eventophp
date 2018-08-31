@@ -1,10 +1,9 @@
 <?php
 
 	include "modelo/banco.php";
+	include "modelo/banco.php";
 	
 	if(isset($_POST['cidade'])){
-		//$nome = htmlspecialchars($_POST['nome']);
-		//$cpf = htmlspecialchars($_POST['cpf']);
 		$cidade = htmlspecialchars($_POST['cidade']);
 		$ddd = htmlspecialchars($_POST['ddd']);
 		$telefone = htmlspecialchars($_POST['telefone']);
